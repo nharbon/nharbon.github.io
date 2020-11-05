@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:500&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+* {
+    font-family: 'Montserrat' sans-serif;
+}
+
+
+body {
+	font-family: sans-serif;  
+    color: white;
+    background-image: url(../../../images/IMG_2070.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+
+
+}
+
+.nav__links {
+    overflow: hidden;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 13px; 
+
+}
+
+.nav__links a {
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-right: -10px;
+    background-color: black;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+li a.active {
+    background-color: #063852;
+    color: white;
+    border-radius: 60px;
+    
+   
+}
+
+#hr {
+    color: #063852;
+    margin-left: 34%;
+    margin-right: 30%;
+    margin-top: -180px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #063852;
+    color: white;
+    border-radius: 60px;
+}
+
+
+li {
+    float: right;
+    margin-right: 45px;
+}
+
+img {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Montserrat' , sans-serif;
+    color: black;
+    margin: 10% 13%;
+    font-size: 70px;
+    padding-left: 450px;
+}
+.last {
+    margin-bottom: 100px;
+}
+
+#sign {
+    
+    margin: 20px;
+    text-align: center;
+}
+
+hr {
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
