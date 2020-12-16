@@ -11,14 +11,11 @@ body {
 
 @media screen and (max-width: 280px) {
     .bigbox {
-        background-color: black;
-       
+        background-color: black;   
         display: flex;
-        flex-direction: column;
-    
-      
+        flex-direction: column;      
     }
-  }
+}
 
 h1 {
     font-size: 400%;
@@ -27,15 +24,11 @@ h1 {
 }
 
 img {
-    padding: 5px;
-    
+    padding: 5px;   
 }
 
 .bigbox {
     background-color: black;
     padding-left: 10%;
-    padding-top: 10%;
-      
-
-  
+    padding-top: 10%; 
 }
