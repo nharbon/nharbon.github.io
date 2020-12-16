@@ -31,4 +31,6 @@ img {
     background-color: black;
     padding-left: 10%;
     padding-top: 10%; 
+    width: 100%;
+    margin-left: -10px;
 }
