@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;  
+    font-family: 'Montserrat', sans-serif; 
     color: white;
     background-image: url(images/DSCF9149.jpg);
     background-position: center;
@@ -7,4 +7,35 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+}
+
+@media screen and (max-width: 280px) {
+    .bigbox {
+        background-color: black;
+       
+        display: flex;
+        flex-direction: column;
+    
+      
+    }
+  }
+
+h1 {
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    padding: 5px;
+    
+}
+
+.bigbox {
+    background-color: black;
+    padding-left: 10%;
+    padding-top: 10%;
+      
+
+  
 }
