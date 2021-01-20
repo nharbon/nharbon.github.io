@@ -13,15 +13,10 @@ body {
 
 h1 {
     font-size: 600%;
+    display: flex;
+    justify-content: center;
     padding-top: 10%;
     color: black;
-    display: flex;
-    justify-content: center;
-}
-
-h3 {
-    display: flex;
-    justify-content: center;
 }
 
 nav {
@@ -48,16 +43,52 @@ nav a:hover {
     color: lightblue;
     transition-delay: 0.1s;
 }
+.bigbox {
+    background-color:black;
+    color: white;
+    
+    padding-top: 10%; 
+    width: 120%;
+    margin-left: -10px;
+    margin-right: 10%;    
+}
 
+.contact {
+    padding-left: 10%;
+}
 
+.images {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    justify-content: space-around;
+    padding-left: -10%;
+    margin-top: 5%;
+    padding-right: 15%;
+}
 
+.bigbox a{
+    color: lightblue;
+}
 
-@media only screen and (max-width: 800px) {
+.bigbox img {
    
+    padding: 25px;
+}
 
+@media only screen and (max-width: 280px) {
+   
     h1 {
         display: flex;
         justify-content: center;
-        margin-left: 10%;
     }
   }
+
+  @media screen and (max-width: 280px) {
+    .bigbox {
+        background-color: black;   
+        display: flex;
+        flex-direction: column;      
+    }
+}

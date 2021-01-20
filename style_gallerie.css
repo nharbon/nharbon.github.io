@@ -1,8 +1,6 @@
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
 body {
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
     background-image: url(images/DSCF8089-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -11,17 +9,39 @@ body {
     height: 100%;
 }
 
-h1 {
-    font-size: 600%;
-    padding-top: 10%;
-    color: black;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 280px) {
+    .bigbox {
+        background-color: black;   
+        display: flex;
+        flex-direction: column; 
+        justify-items: center;   
+    }
 }
 
-h3 {
+h1 {
+    font-size: 600%;
     display: flex;
     justify-content: center;
+    padding-top: 10%;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    padding: 5px;   
+}
+
+.bigbox {
+    background-color:black;
+    padding-left: 10%;
+    padding-top: 10%; 
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
 }
 
 nav {
@@ -36,7 +56,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 150%;
-    color:white;
+    color: white;
     transition: 0s color;
 }
 
@@ -48,16 +68,3 @@ nav a:hover {
     color: lightblue;
     transition-delay: 0.1s;
 }
-
-
-
-
-@media only screen and (max-width: 800px) {
-   
-
-    h1 {
-        display: flex;
-        justify-content: center;
-        margin-left: 10%;
-    }
-  }
